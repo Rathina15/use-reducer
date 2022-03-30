@@ -27,15 +27,6 @@ const Form = () => {
     return (
         <center>
             <form>
-
-                <label>Username:</label>
-                <input
-                    type="text"
-                    name="username"
-                    placeholder="Enter the Name"
-                    value={formState.username}
-                    onChange={onChange} required /><br></br>
-
                 <label>FirstName:</label>
                 <input
                     type="text"
@@ -79,8 +70,7 @@ const Form = () => {
                     value={formState.usernumber}
                     onChange={onChange} /><br></br>
 
-                <button>Submit</button>
-
+                <button >Submit</button>
             </form>
         </center>
     );
